@@ -6,7 +6,7 @@ body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 1.4em;
+    /* font-size: 1.4em; */
     line-height: 2em;
     max-height: 100vh;
     max-width: 100vw;
@@ -104,11 +104,11 @@ nav.nav .a-link .mdi {
     border: 1px solid currentColor;
     width: 100%;
     text-align: center;
-    margin-top: .8rem;
+    margin-top: .4rem;
     background-color: white;
     color: #111;
     font-weight: bold;
-    padding: 14px;
+    padding: 8px;
 }
 img{
     display: block;
