@@ -17,12 +17,14 @@ body {
     box-shadow: 1px 1px 4px red , -1px -1px 4px black;
     border:1px solid red;
     margin: auto;
+    max-height: 100vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, .4);
 }
 
 nav.nav {
     padding: 2px 4px;
-    margin-top: 12px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +46,9 @@ nav.nav .a-link .mdi {
     color: #111;
     font-size: .8em;
 }
-
+#header .section{
+    margin-top: 20px;
+}
 .section {
     margin: 0px auto;
     width: 100%;
@@ -93,7 +97,9 @@ nav.nav .a-link .mdi {
 }
 
 
-#main {}
+#main {
+    margin-top: 10px;
+}
 
 #main .social-btn-group {
     display: flex;
@@ -131,6 +137,10 @@ img{
 @media screen and (min-width:900px) {
     body{
         padding: 2px;
+    }
+    .social-btn{
+        padding: 2px;
+        margin-top: .2rem;
     }
     .container{
         max-width: 50%;
