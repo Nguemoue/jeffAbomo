@@ -6,26 +6,26 @@ body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    /* font-size: 1.4em; */
-    line-height: 2em;
+    font-size: 1.2em;
+    line-height: 1em;
     max-height: 100vh;
     max-width: 100vw;
     overflow-y: visible;
     background-color: #111;
-    padding: 10px 10px;
+    padding: 0 10px;
     margin: auto;
 }
 
 nav.nav {
     padding-top: 18px;
-    margin-top: 20px;
+    margin-top: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav.nav .a-link {
-    font-size: 1.1em;
+    font-size: 1em;
     border: 1px solid white;
     padding: 10px;
     color: black;
@@ -42,7 +42,7 @@ nav.nav .a-link .mdi {
 }
 
 .section {
-    margin: 30px auto;
+    margin: 0px auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -77,12 +77,12 @@ nav.nav .a-link .mdi {
 }
 
 .section .detail p {
-    padding: 20px;
+    padding: 4px;
     line-height: 20px;
     font-size: .9rem;
     word-spacing: 3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* line-height: 20px; */
+    line-height: 20px;
 }
 
 
@@ -91,7 +91,7 @@ nav.nav .a-link .mdi {
 #main .social-btn-group {
     display: flex;
     width: 100%;
-    padding: 0 8px;
+    padding: 10px 8px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -104,11 +104,11 @@ nav.nav .a-link .mdi {
     border: 1px solid currentColor;
     width: 100%;
     text-align: center;
-    margin-top: .4rem;
+    margin-top: .8rem;
     background-color: white;
     color: #111;
     font-weight: bold;
-    padding: 8px;
+    padding: 14px;
 }
 img{
     display: block;
